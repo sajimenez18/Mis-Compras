@@ -1,0 +1,79 @@
+.item {
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caja {
+    background-color: rgb(156, 212, 156);
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.numero {
+    width: auto;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nombre {
+    width: 400px;
+    height: 50px;
+    background-color: white;
+}
+
+.contenedor {
+    background-color: rgb(156, 212, 156);
+    width: 400px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+input {
+  border: none;
+  outline: none;         
+  padding: 0; margin: 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.precio {
+    width: 400px;
+    height: 50px;
+    background-color: white;
+}
+
+.enter {
+    width: 100px;
+    height: 50px;
+
+    margin-right: -300px;
+
+    background-color: green;
+    color: rgb(71, 70, 70);
+
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
